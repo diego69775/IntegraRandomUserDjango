@@ -117,18 +117,18 @@ python manage.py runserver
 Com o servidor rodando em http://127.0.0.1:8000/:
 
 [GET] /api/v1/randomuser/ → Consulta usuário aleatório da API externa
-![Lista usuários da api externa RandomUser](docs/gif/list-randomuser.gif)
+![Lista usuários da api externa RandomUser](docs/list-randomuser.gif)
 
 [POST] /api/v1/randomuser/save/ → Consulta e salva usuário no PostgreSQL
-![Lista usuários da api externa RandomUser e cadastra no banco de dados](docs/gif/list-randomuser-create-db.gif)
+![Lista usuários da api externa RandomUser e cadastra no banco de dados](docs/list-randomuser-create-db.gif)
 
 [GET] /api/v1/users/ → Lista usuários cadastrados
-![Lista e cadastra usuários no banco de dados](docs/gif/list-create-db.gif)
+![Lista e cadastra usuários no banco de dados](docs/list-create-db.gif)
 
 [GET] /api/v1/users/1/ → Usuário por ID
 [PUT] /api/v1/users/1/ → Atualiza usuário
 [DELETE] /api/v1/users/1/ → Remove usuário
-![Lista, altera e deleta usuário pelo ID no banco de dados](docs/gif/update-delete-db.gif)
+![Lista, altera e deleta usuário pelo ID no banco de dados](docs/update-delete-db.gif)
 
 Você pode usar Postman, Insomnia ou cURL para testar.
 
