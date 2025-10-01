@@ -139,3 +139,21 @@ Para rodar a verificação:
 ```bash
 flake8
 ```
+
+🌐 Deploy Online
+
+Foi feito o deploy no PythonAnywhere e está disponível para teste público:
+
+Lista de usuários
+https://diego69775.pythonanywhere.com/api/v1/users/
+
+Usuário por ID (ex.: 1)
+https://diego69775.pythonanywhere.com/api/v1/users/1/
+
+Consultar usuário aleatório da RandomUser API
+https://diego69775.pythonanywhere.com/api/v1/randomuser/
+
+Salvar usuário aleatório no banco
+https://diego69775.pythonanywhere.com/api/v1/randomuser/save/
+
+Você pode testar os endpoints diretamente no navegador, Postman ou Swagger (via Django REST Framework).
